@@ -21,3 +21,5 @@ Given the time constraint, I am limited to what the user ticket asked. In the fu
 ### Live example
 
 This project can be viewed via Github at 
+
+https://goldreb.github.io/Dashboard_weather/
