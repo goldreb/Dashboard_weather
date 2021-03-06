@@ -1,0 +1,40 @@
+
+* {
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(174, 210, 247);
+    color: rgb(50, 51, 53);
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.card-body, .form-control, .list-group-item {
+    background-image: rgb(245, 245, 225);
+}
+
+
+.hero {
+    background-color: rgb(8, 66, 124);
+    font-family: "Roboto Slab", serif;
+    color: rgb(207, 234, 245);
+}
+
+.list-group-item:hover {
+    color: rgb(116, 213, 252);
+    background-color: rgba(5, 61, 117, 0.5);
+    cursor: pointer;
+}
+
+#time-forecast {
+    font-size: 16px;
+}
+
+h4.card-title {
+    font-size: 14px;
+   
+}
