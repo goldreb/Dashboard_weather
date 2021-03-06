@@ -176,8 +176,8 @@ var display5dayforecast = data => {
     //first forecast date
     var firstForecast;
     var todayStartOfHour = moment(citySearchedData, "MMMM Do YYYY, h:mm a").startOf("hour").format("YYYY-MM-DD HH:mm:ss");
-    var todayNow = moment(citySearchedData, "MMMM Do YYYY, h:mm a").format("YYYY-MM-DD") + " 06:00:00";
-    if (todayStartOfHour > todayNow) {
+    var today = moment(citySearchedData, "MMMM Do YYYY, h:mm a").format("YYYY-MM-DD") + " 06:00:00";
+    if (todayStartOfHour > today) {
         firstForecast = moment(citySearchedData, "MMMM Do YYYY, h:mm a").add(1, "d").format("YYYY-MM-DD") + " 12:00:00";
     } else {
         firstForecast = moment(citySearchedData, "MMMM Do YYYY, h:mm a").format("YYYY-MM-DD") + " 12:00:00";
